@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Header from "./Header";
 import Hero from "./Hero";
 import Services from "./Services";

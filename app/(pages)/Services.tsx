@@ -69,13 +69,15 @@ const Services = ({ language }: any) => {
                     <span>{title}</span>
                     <span className="font-sans text-base">{description}</span>
                     {tags && <Tags tags={tags} />}
-                    <Button
-                      variant="secondary"
-                      className="w-full py-4 mt-auto self-end"
-                      onClick={() => {}}
-                    >
-                      {language.button} &rarr;
-                    </Button>
+                    <a href="#contact">
+                      <Button
+                        variant="secondary"
+                        className="w-full py-4 mt-auto self-end"
+                        onClick={() => {}}
+                      >
+                        {language.button} &rarr;
+                      </Button>
+                    </a>
                   </div>
                 </div>
               </li>
