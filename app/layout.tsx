@@ -1,16 +1,10 @@
-"use client";
+"use client"
 import "./globals.css";
 import { Press_Start_2P } from "next/font/google";
 import { LanguageContext } from "@/utils/LanguageContext";
-import { Dispatch, SetStateAction, useState } from "react";
+import { useState } from "react";
 
 const bit = Press_Start_2P({ subsets: ["latin"], weight: "400" });
-
-export const metadata = {
-  title: "Abel Herrera | Web Developer",
-  description:
-    "Web, React, Javascript, Frontend, Node, Developer, Code Instructor",
-};
 
 interface LanguageContextType {
   language: "EN" | "ES";

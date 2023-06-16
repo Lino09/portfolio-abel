@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import Header from "./Header";
 import Hero from "./Hero";
 import Services from "./Services";
@@ -7,6 +7,11 @@ import { languages } from "./constants";
 import { useContext } from "react";
 import { LanguageContext } from "@/utils/LanguageContext";
 import Contact from "./Contact";
+export const metadata = {
+  title: "Abel Herrera | Web Developer",
+  description:
+    "Web, React, Javascript, Frontend, Node, Developer, Code Instructor",
+};
 
 export default function Home() {
   const { language: lang }: { language: keyof typeof languages } =
