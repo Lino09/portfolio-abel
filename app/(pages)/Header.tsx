@@ -14,8 +14,8 @@ const MobileMenu = ({ language }: any) => {
           } `}
         ></div>
         <div
-          className={`w-8 h-1 bg-bit-sky mt-1.5 transform transition-all duration-500 ${
-            isOpen ? "w-0" : ""
+          className={`h-1 bg-bit-sky mt-1.5 transform transition-all duration-500 ${
+            isOpen ? "w-0" : " w-8"
           } `}
         ></div>
         <div
